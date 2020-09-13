@@ -26,4 +26,34 @@ print(list_numbers[len(list_numbers) - 1])
 
 #we can declare an empty list woo! or lists of lists
 
+#loop time
+
+candies = ["twix", "reeses"]
+
+for candy in candies:
+    print(candy)
+
+i=0
+while i < len(candies): 
+    print (i, candies[i])
+    i+= 1
+
+#common list operators
+#list concatenation... adding 2 lists together
+
+print(candies)
+candies += ["m&ms", "starbursts"]
+print(candies)
+
+bag_o_candies = 5 * ["twix", "snickers"]
+print(bag_o_candies)
+
+#list slicing
+print(candies[1:2]) # : is the slice operator; start index is inclusive, end index is exclusive
+
+#if you ever need a copy, you can use the slice
+
+
+
+
 
